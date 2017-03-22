@@ -1,13 +1,13 @@
 {
-  "name": "one-light-syntax",
+  "name": "one-light-kat",
   "theme": "syntax",
   "version": "1.7.1",
-  "description": "Atom One light syntax theme",
+  "description": "Atom One light syntax theme (personal customizations thereof)",
   "keywords": [
     "light",
     "syntax"
   ],
-  "repository": "https://github.com/atom/one-light-syntax",
+  "repository": "https://github.com/crowsonkb/one-light-kat",
   "license": "MIT",
   "engines": {
     "atom": ">0.40.0"

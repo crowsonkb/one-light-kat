@@ -3,6 +3,7 @@
 atom-text-editor {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
+  -webkit-font-smoothing: subpixel-antialiased;
 
   .line.cursor-line {
     background-color: @syntax-cursor-line;
@@ -21,7 +22,7 @@ atom-text-editor {
   }
 
   .bracket-matcher .region {
-    border-bottom: 1px solid @syntax-cursor-color;
+    border-bottom: 2px solid @syntax-cursor-color;
     box-sizing: border-box;
   }
 
@@ -55,7 +56,7 @@ atom-text-editor {
   .gutter {
     .line-number {
       color: @syntax-gutter-text-color;
-      -webkit-font-smoothing: antialiased;
+      font-weight: 300;
 
       &.cursor-line {
         color: @syntax-gutter-text-color-selected;

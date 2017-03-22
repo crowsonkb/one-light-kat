@@ -3,6 +3,7 @@
 .syntax--comment {
   color: @mono-3;
   font-style: italic;
+  font-weight: 300;
 
   .syntax--markup.syntax--link {
     color: @mono-3;
@@ -22,31 +23,37 @@
 
 .syntax--keyword {
   color: @hue-3;
+  font-weight: 600;
 
   &.syntax--control {
     color: @hue-3;
   }
 
   &.syntax--operator {
-    color: @mono-1;
+    color: @hue-1;
+    font-weight: 400;
   }
 
   &.syntax--other.syntax--special-method {
     color: @hue-2;
+    font-weight: 400;
   }
 
   &.syntax--other.syntax--unit {
     color: @hue-6;
+    font-weight: 400;
   }
 }
 
 .syntax--storage {
   color: @hue-3;
+  font-weight: 600;
 
   &.syntax--type {
     &.syntax--annotation,
     &.syntax--primitive {
       color: @hue-3;
+      font-weight: 600;
     }
   }
 
@@ -67,6 +74,10 @@
 
   &.syntax--character.syntax--escape {
     color: @hue-1;
+  }
+
+  &.syntax--language {
+    font-weight: 600;
   }
 
   &.syntax--numeric {
@@ -90,7 +101,8 @@
   }
 
   &.syntax--parameter {
-    color: @mono-1;
+      color: @hue-6;
+      font-style: italic;
   }
 }
 
