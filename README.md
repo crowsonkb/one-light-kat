@@ -1,11 +1,13 @@
-## One Light Syntax theme
+## One Light Kat syntax theme
 
-![one-syntax-light](https://cloud.githubusercontent.com/assets/378023/7783214/c146b4e6-0174-11e5-8377-a57cf0274d5d.png)
+Improved (IMO) version of [One Light](https://github.com/atom/one-light-syntax).
 
-> The font used in the screenshot is [Fira Mono](https://github.com/mozilla/Fira).
+Changes from the original:
 
-There is also a matching [UI theme](https://atom.io/themes/one-light-ui).
-
-### Install
-
-This theme is installed by default with Atom and can be activated by going to the __Settings > Themes__ section and selecting it from the __Syntax Themes__ drop-down menu.
+* Background is `#ffffff`.
+* Text is fully monochrome (saturation 0%).
+* Function calls are blue in Python (with [MagicPython](https://atom.io/packages/magicpython)).
+* Operators are cyan.
+* Comments and line numbers use light font weight (300).
+* Keywords, types, and language-specific constants are semibold (weight 600).
+* Function parameter names are italic (in many languages).
