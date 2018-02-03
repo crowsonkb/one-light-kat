@@ -1,4 +1,4 @@
-## One Light Kat syntax theme
+## One Light Kat (Atom syntax theme)
 
 Improved (IMO) version of [One Light](https://github.com/atom/one-light-syntax).
 
