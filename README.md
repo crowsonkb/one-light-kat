@@ -1,6 +1,6 @@
 ## One Light Kat (Atom syntax theme)
 
-Improved (IMO) version of [One Light](https://atom.io/packages/one-light-syntax). 
+Improved (IMO) version of [One Light](https://atom.io/packages/one-light-syntax). Works best with [Apple's SF Mono font](https://atom.io/packages/import-sf-mono).
 
 Changes from the original:
 
