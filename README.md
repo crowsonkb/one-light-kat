@@ -1,6 +1,6 @@
 ## One Light Kat (Atom syntax theme)
 
-Improved (IMO) version of [One Light](https://github.com/atom/one-light-syntax).
+Improved (IMO) version of [One Light](https://atom.io/packages/one-light-syntax). 
 
 Changes from the original:
 
